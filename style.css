@@ -1,0 +1,566 @@
+/*RESET*/
+body, h1, h2, h3, h4, p, figure{margin:0}
+a{color: inherit}
+*{box-sizing: border-box;}
+
+/*GERAL*/
+
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*TOP-SITE*/
+.top-site{
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 43px;
+}
+
+.switch{
+    display: flex;
+    flex-direction: row;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+/*TOP*/
+
+.top{
+    background-image: url(../images/balleteatro_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 250px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 30px;
+}
+.name h2{
+    font-size: 18px;
+}
+
+.name{
+    background-color: #ffff;
+    margin-left: 53px;
+    width: 45%;
+    padding: 20px 10px 70px 25px;
+}
+
+/*CONTAINER*/
+
+.container{
+    background-color: #ebebeb;
+    padding-top: 100px;
+    margin-bottom: 0;
+}
+
+.container article{
+    margin-left: 53px;
+    width: 40%;
+}
+
+.container h3{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info{
+    position: relative;
+    top: -70px;
+}
+
+.container p{
+    line-height: 25px;
+}
+
+.container a{
+    margin:30px 0;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    border: solid 3px #f34155;
+    padding: 8px 5px;
+    color: #f34155;
+}
+
+.bold{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.age{
+    margin-bottom: 20px;
+}
+
+.note{
+    margin-top: 20px;
+}
+
+/*FORMS*/
+
+.forms{
+    width: 40%;
+    position: relative;
+    top: -754px;
+    left: 650px;
+    background-color: #ffff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.full{
+    width: 90%;
+    margin: 10px 0;
+}
+.forms h3{
+    margin: 10px 0;
+    color: #f34155;
+}
+
+.forms a{
+    margin: 0 0 10px 0;
+    color: inherit;
+    text-decoration: underline;
+    border: none;
+    
+}
+
+.input-element{
+    margin: 10px 17px;
+}
+
+.submit{
+    width: 90%;
+    border-radius: 3px;
+    border: solid 3px #f34155;
+    padding: 8px 5px;
+    color: #f34155;
+    font-weight: bold;
+}
+
+/*WORKSHOP*/
+
+.workshop{
+   position: relative;
+   top: -670px;
+   background-color: #ebebeb;
+   padding-bottom: 50px;
+}
+
+.dances{
+    margin-top: 30px;
+}
+
+.about{
+    text-align: left;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.about h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.left{
+    margin-left: 57px;
+    display: flex;
+    align-items: center;
+    
+}
+.left figure{
+    width: 30%;
+    margin-right: 30px;
+}
+.left img{
+    width: 100%;
+}
+
+.left p{
+    width: 50%;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 53px;
+    text-align: right;
+}
+
+.right figure{
+    width: 30%;
+    margin-left: 30px;
+}
+
+.right img{
+    width: 100%;
+}
+
+.right p{
+    width: 50%;
+    margin-left: 450px;
+}
+
+/*TEAM*/
+
+.team{
+    position: relative;
+    top: -480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teacher{
+    width: 40%;
+    margin: 30px 57px;
+    text-align: center;
+}
+
+.teacher p{
+    margin: 15px 0;
+}
+
+.teacher figure{
+    width: 50%;
+    margin: 20px auto;
+
+}
+
+.teacher img{
+    width: 100%;
+}
+
+.teacher footer{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer figure{
+  width: 50%;
+}
+
+.footer img{
+    size: 30%;
+}
+
+/*DIVIDER*/
+
+.divider{
+    position: relative;
+    top: -100px;
+    background-image: url(../images/balleteatro_AbtUs.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 250px;
+    padding-bottom: 10px;
+}
+
+.divider-name{
+    background-color: #fed02b;
+    margin-left: 53px;
+    width: 45%;
+    padding: 20px 10px 110px 25px;
+    
+}
+
+/*THEATRE-INFO*/
+
+.theatre{
+    position: relative;
+    top: -50px;
+}
+
+.theatre-info{
+    display: flex;
+    align-items: center;
+    margin-left: 57px;
+    padding: 80px 0;
+}
+
+.theatre-info h3{
+    width: 30%;
+    border: solid 3px #fed02b;
+    padding: 40px;
+    color: #fed02b;
+    text-align: center;
+}
+
+.theatre-info article{
+    width: 60%;
+    margin-right: 53px;
+    margin-left: 53px;
+}
+
+.theatre-info p{
+    margin-bottom: 10px
+}
+
+.theatre-mirror{
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+    padding: 150px 0;
+    padding-right: 57px;
+}
+
+.theatre-mirror h3{
+    width: 30%;
+   border: solid 3px black;
+    padding: 40px;
+    text-align: center;
+}
+.theatre-mirror article{
+    width: 70%;
+    margin-right: 53px;
+    
+}
+
+.theatre-mirror p{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-left: 53px;
+
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-info{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.symbol{
+    width: 80%;
+}
+
+.symbol img{
+    width: 100%;
+}
+
+.footer p{
+    color: white;
+}
+
+.social{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    padding-right: 53px;
+}
+
+.social figure{
+    width: 50%;
+}
+
+.social img{
+    width: 100%;
+    margin-right: 5px;
+}
+
+
+@media all and (max-width:480px){
+  
+  /*GERAL*/
+    body{
+    max-width: 480px;
+  } 
+
+  /*TOP-SITE*/
+
+  .top-site{
+    width: 100%;
+  }
+
+  /*TOP*/
+   
+  .top{
+    display: block;
+    width: 480px;
+    padding-top: 200px;
+  }
+
+  .name{
+    width: 80%
+  }
+
+  /*CONTAINER*/
+
+  .container{
+    padding-left: 0;
+    padding-right: 40px;
+    display: block;
+  }
+
+  /*FORMS*/
+  
+    .forms{
+    margin-left: 57px;
+    top: 0;
+    display: block;
+    position: static;
+    width: 90%;
+   }
+
+   .input-element{
+    margin: 5px;
+   }
+
+   /*INFO*/
+
+   .info{
+    position: static;
+    display: block;
+    width: 400px;
+   }
+
+   .info p{
+    margin: 15px auto;
+   }
+
+   /*WORKSHOP*/
+
+   .workshop{
+    padding-top: 20px;
+    position: static;
+   }
+
+   /*DANCES*/
+
+   .dances{
+    display: block;
+    width: 480px;
+   }
+
+   .left{
+    display: block;
+    margin-bottom: 20px;
+   }
+
+   .left figure{
+    width: 200px;
+    margin: 20px auto;
+   }
+
+   .left img{
+    width: 100%;
+   }
+
+   .left p{
+    margin: 15px auto;
+   }
+
+   .right{
+    width: 480px;
+    display: block;
+    margin-bottom: 20px;
+   }
+
+   .right p{
+    margin: 20px auto;
+   }
+
+   .right figure{
+    width: 50%;
+    margin: 15px auto;
+   }
+
+   .right img{
+    width: 100%;
+   }
+
+   /*TEAM*/
+
+   .team{
+    display: block;
+    position: static;
+    margin: 0 auto;
+   }
+
+   .teacher{
+    margin: 10px auto;
+   }
+
+   .teacher figure{
+    width: 70%;
+   }
+
+   /*DIVIDER*/
+
+   .divider{
+    position: static;
+   }
+
+   .divider-name{
+    width: 80%
+   }
+
+   /*THEATRE*/
+
+   .theatre{
+    position: static;
+   }
+
+   .theatre-info{
+    display: block;
+    max-width:480px;
+    margin-left: 0;
+    padding-top: 20px;
+   }
+
+   .theatre-info h3{
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+   }
+  
+
+   .theatre-mirror{
+    display: block;
+    padding: 20px 0;
+   }
+
+   .theatre-mirror h3{
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+   }
+
+   .theatre-mirror p{
+    margin-top: 20px;
+    margin-left: 70px;
+   }
+
+
+   /*FOOTER*/
+
+   .location-info{
+    width: 300px;
+    padding-left: 20px;
+   }
+   .symbol{
+    width:90%;
+   }
+
+   .social{
+    width: 100px;
+    padding-right: 20px;
+   }
+}
